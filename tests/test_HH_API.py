@@ -8,11 +8,12 @@ from src.HH_API import HeadHunterAPI
 @pytest.fixture
 def v():
     v = Vacancy("Ведущий программист 1С (Москва)",
-                "Москва",
+                "https://hh.ru/vacancy/94212812",
                 460000,
                 517000,
                 "Полная занятость",
-                "https://hh.ru/vacancy/94212812")
+                "Москва"
+                )
     return v
 
 
