@@ -1,5 +1,6 @@
 import json
 
+
 def test_add_to_file(self):
     with open('vacancies.json', 'w', encoding='utf-8') as file:
         json.dump(self, file, indent=4, ensure_ascii=False)
